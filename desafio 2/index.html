@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>desafio</title>
+    <style>
+        h1 {
+            background-color: lightblue;       
+            height: 300px;
+            width: 700px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com imagens flexiveis!</h1>
+        <picture>
+            <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+            <img src="imagens/paisagem-g.png" alt="imagem flexivel">
+        </picture>
+    <h1>Agora desafia da navegação</h1>
+    <p>Essa é a pagina principal</p>
+    <ul>
+        <li><a href="verde.html">Página verde</a></li>
+        <li><a href="amarelo.html">Página amarela</a></li>
+    </ul>
+    <h1>Agora vamos ao desafio dos videos</h1>
+        <p>
+        <a href="amarelojava.html"><img src="imagens/thumb-js.png" alt="thumb js"></a><a href="verdehtml.html"><img src="imagens/thumb-html.png" alt="tumb HTML"></a>
+        </p>
+        <p>
+            <a href="hardware.html"><img src="imagens/thumb-hardware.png" alt="thumb hardware"></a><a href="python.html"><img src="imagens/thumb-python.png" alt="thumb python"></a>
+        </p>
+
+</body>
+</html>
