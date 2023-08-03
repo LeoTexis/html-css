@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando iframe</title>
+    <style>
+        #bordado {
+            border: solid black 1px
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de iframe</h1>
+    <!-- O tamanho padrão do iframe é de 300x150 e é um inline block-->
+    <p>
+        Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0"><a href="https://www.cursoemvideo.com/" target="_blank">Curso em video</a></iframe> para aprender.
+    </p>
+    <p>
+        O site do w3school vem me ajudando bastante <iframe src="https://www.w3schools.com/" frameborder="0" height="500" width="500"><a href="https://www.w3schools.com/"></a></iframe>
+    </p>
+    <!--
+        podemos travar o scrolling do frame com o parametro "scolling" que por padrão é "auto" e existe o "yes" e o "no"
+    -->
+    <iframe src="https://www.cursoemvideo.com/" frameborder="0" scrolling="no" width="300" height="600"></iframe>
+    <!--Já o frameborder existem apenas 2 valores 0 e qualquer outra coisa, 0 tira a borda e qualquer outro valor coloca borda. Para estilizar a borda basta alterar com css-->
+    <iframe src="https://www.cursoemvideo.com/" frameborder="0" scrolling="no" width="300" height="600" id="bordado"></iframe>
+</body>
+</html>
