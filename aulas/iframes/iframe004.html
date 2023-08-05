@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança e configurações</title>
+</head>
+<body>
+    <h1>Vamos tentar umas configurações dos iframes</h1>
+    <p>Agora vamos ver como tornar os iframes um pouco mais seguros e algumas configurações padrões para as mesmas</p>
+
+    <iframe src="paginas-extras/pag004.html" frameborder="1">
+        Seu navegador não é compatível com isso
+    </iframe>
+    <p>Agora iremos aplicar o atributor sandbox com o valor sandbox</p>
+
+    <iframe src="paginas-extras/pag004.html" sandbox="sandbox" frameborder="1">
+        Seu navegador não é compatível com isso
+    </iframe>
+    <p>Isso desabilita/bloqueia a possibilidade de clicar no botão.</p>
+    <p>Outra opção seria colocar o atributo "referrerpolicy", que por padrão é "no-referrer-when-downgrade" e assim para o conteudo do iframe <strong>não</strong> vai coletar nenhuma tipo de informação do usuario</p>
+    <iframe src="paginas-extras/pag004.html" referrerpolicy="no-referrer" frameborder="1">
+        Seu navegador não é compatível com isso
+    </iframe>
+</body>
+</html>
