@@ -1,0 +1,7 @@
+@charset "UTF-8" ;
+
+/* telas de computador/tv */
+
+body {
+    background-image:  url(../images/cev-landscape.jpg);
+}
