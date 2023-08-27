@@ -7,13 +7,9 @@
 
     menu {
         display: block;
-        position: relative;
+        text-align: center;
     }
 
-    menu > ul {
-        position: absolute;
-
-    }
 
     menu > ul > li {
         display: inline-block;
